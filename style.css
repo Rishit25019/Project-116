@@ -1,0 +1,22 @@
+canvas{
+border: 5px solid black;
+margin-top: 90px;
+animation-name: color;
+ animation-duration:9s ;
+ animation-iteration-count: infinite ;
+}
+
+@keyframes color {
+from{box-shadow:1px 1px 38px red}
+to{box-shadow:1px 1px 38px yellow}
+from{box-shadow:1px 1px 38px pink}
+to{box-shadow:1px 1px 38px blueviolet}
+from{box-shadow:1px 1px 38px blue}
+to{box-shadow:1px 1px 38px green}
+}
+
+.heading {
+background-color: coral;
+width: 70%;
+}
+
